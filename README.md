@@ -5,7 +5,7 @@
 -   Its Just a selfbot i made
 -   Any questions? Any issueses? click [here](https://github.com/AshKetchumPL/selfbot/issues)
 
-## Our [discord server](https://discord.gg/WUcQsppM/)
+## Our [discord server](https://discord.gg/jCN8JH5EMb/)
 
 ## Windows Tutorial:
 
@@ -23,4 +23,4 @@ status = "afk" # DND, online, offline, afk
 
 ## Heroku Tutorial:
 
--   Video tutorial soon (just ask in our [discord server](https://discord.gg/WUcQsppM/))
+-   Video tutorial soon (just ask in our [discord server](https://discord.gg/jCN8JH5EMb/))
