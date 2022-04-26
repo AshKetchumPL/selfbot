@@ -7,7 +7,7 @@
 import discord, logging, settings
 from discord.ext import commands, tasks
 
-client = commands.Bot(command_prefix='-', description="Just a another selfbot", self_bot=True)
+client = commands.Bot(command_prefix=settings.prefix, description="Just a another selfbot", self_bot=True)
 client.logger = logging.getLogger("mainlogger")
 client.logger.setLevel(logging.DEBUG)
 handler = logging.FileHandler(filename='selfbot.log', encoding='utf-8', mode='w')
