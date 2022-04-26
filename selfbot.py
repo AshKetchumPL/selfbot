@@ -4,7 +4,7 @@
 
 # Main file
 
-import discord, logging
+import discord, logging, settings
 from discord.ext import commands, tasks
 
 client = commands.Bot(command_prefix='-', description="Just a another selfbot", self_bot=True)
@@ -16,9 +16,9 @@ client.logger.addHandler(handler)
 client.logger.warning("Starting...")
 
 client.version = "0.0.4"
-client.status = "dnd"
-client.status_deflaut = "dnd"
-client.TOKEN = "Your token HERE"
+client.status = settings.status
+client.status_deflaut = settings.status
+client.TOKEN = settings.TOKEN
 
 @tasks.loop(minutes=1)
 async def afk():
@@ -57,4 +57,5 @@ async def reload(ctx):
         client.load_extension(f"maincog")
         client.unload_extension(f"maincog")
     await ctx.send("Cog reloaded")
+    
 client.run(client.TOKEN)
