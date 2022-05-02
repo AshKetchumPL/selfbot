@@ -23,4 +23,4 @@ status = "afk" # DND, online, offline, afk
 
 ## Heroku Tutorial:
 
--   Video tutorial soon (just ask in our [discord server](https://discord.gg/jCN8JH5EMb/))
+-   Video tutorial soon (just ask in our [discord server](https://discord.gg/jCN8JH5EMb/) for now)
